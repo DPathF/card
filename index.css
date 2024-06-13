@@ -1,0 +1,124 @@
+body{
+    background-color: black;
+    position: relative;
+}
+.main{
+    display: flex;
+    background-color: rgb(100, 112, 110);
+    width: 400px;
+    height: 550px;
+    position: absolute;
+    left:430px;
+    top:60px;
+    border: 2px solid rgb(136, 8, 51);
+    border-radius:12px ;
+}
+.pic{
+    position: absolute;
+    display: flex;
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 150px;
+    border:2px solid rgb(136, 8, 51); ;
+}
+.h1{
+    position: absolute;
+    display: flex;
+    color: white;
+    top:150px;
+    left: 538px;
+
+}
+.from{
+    display: flex;
+    position: absolute;
+    color:yellow;
+    left:538px;
+    top:190px
+}
+.about{
+    display: flex;
+    position: absolute;
+    color:white;
+    left:555px;
+    top:240px;
+
+}
+.git{
+    position: absolute;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%;
+    left:480px;
+    top:240px;
+    border-radius: 20px;
+    background-color: rgb(95, 87, 87);
+    border: 2px solid rgb(136, 8, 51);
+    width: 300px;
+
+}
+.mentor{
+    position: absolute;
+    top:310px;
+    left:480px;
+    font-size: 20px;
+    width: 300px;
+    font-weight: 500;
+    border-radius: 20px;
+    line-height: 200%;
+    background-color:rgb(95, 87, 87) ;
+    border:2px solid rgb(136, 8, 51) ;
+}
+.link{
+    position: absolute;
+    top:380px ;
+    left: 480px;
+    font-size:20px ;
+    width: 300px;
+    font-weight: 500;
+    border-radius: 20px;
+    line-height: 200%;
+    background-color:rgb(95, 87, 87) ;
+    border:2px solid rgb(136, 8, 51) ;
+}
+.twit{
+    position: absolute;
+    top:450px ;
+    left: 480px;
+    font-size:20px ;
+    width: 300px;
+    font-weight: 500;
+    border-radius: 20px;
+    line-height: 200%;
+    background-color:rgb(95, 87, 87) ;
+    border:2px solid rgb(136, 8, 51) ;
+}
+.insta{
+    position: absolute;
+    top:520px ;
+    left: 480px;
+    font-size:20px ;
+    width: 300px;
+    font-weight: 500;
+    border-radius: 20px;
+    line-height: 200%;
+    background-color:rgb(95, 87, 87) ;
+    border:2px solid rgb(136, 8, 51) ;
+}
+.foot{
+    position: absolute;
+    display: flex;
+    background-color: aqua;
+    width: 400px;
+    height: 100;
+    top: 650px;
+    border-radius: 20px;
+    background-color:rgb(95, 87, 87) ;
+    border:2px solid rgb(136, 8, 51) ;
+    color: brown;
+    
+}
+button:hover{background-color: rgb(136, 8, 51);}
